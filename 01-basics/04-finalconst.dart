@@ -37,6 +37,7 @@ main() {
   // Error
   // const List<String> peopleConst3 = const ['Beto', 'Johnny', 'Josue'];
 
-  
+  // Error, can't change memory location again after initialization
+  // personasFinal = [];
 
 }
