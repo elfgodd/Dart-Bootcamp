@@ -51,4 +51,16 @@ main() {
 
   print(completeName);
 
+  // ===== Booleans
+  var isActive; // dynamic
+  print(isActive); // null
+
+  bool isActive2 = true;
+  print(isActive2);
+
+  bool isNotActive = !isActive2;
+  print(isNotActive);
+
+  // print(isNotActive!);
+
 }
