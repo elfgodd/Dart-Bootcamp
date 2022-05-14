@@ -13,6 +13,4 @@ main() {
   x = 10.25;
 
   print(x);
-
-  // ===== comments
 }
