@@ -75,7 +75,7 @@ main() {
   // Another way to create a map
   Map<String, dynamic> captain = new Map(); // Empty Map
   // Error incompatible types: "int" cannot be assigned to "String"
-  captain.addAll(ironman) // Add all elements from ironman to captain
+  // captain.addAll(ironman) // Add all elements from ironman to captain
 
   captain['name'] = 'Steve Rogers';
   print(captain);

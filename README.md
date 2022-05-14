@@ -10,7 +10,7 @@ https://dart.dev/get-dart
 
 ## Section 2: Primeros pasos en Dart - Tipos de datos
 
-    Temas de esta sección:
+    Temas puntuales de la sección:
 
     Hola Mundo en Dart
     Palabras reservadas de Dart
@@ -22,4 +22,14 @@ https://dart.dev/get-dart
     Mapas
     Al final de la sección, hay un examen teórico que nos ayudará a reforzar lo aprendido hasta el momento
 
-### 1.
+## Section 2: Variables, comentarios y operadores
+
+    Temas puntuales de la sección:
+    Esta es una de las secciones más cortas del curso, pero es muy importante, aquí aprenderemos sobre:
+    Variables
+    Constantes vs Finals
+    Operadores Aritméticos
+    Operadores de Asignación
+    Operadores condicionales
+    Operadores relacionales
+    Al final, también tendremos un examen teórico para reforzar lo aprendido
