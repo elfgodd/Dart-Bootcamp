@@ -59,3 +59,18 @@ https://dart.dev/get-dart
     - Argumentos por valor y referencia
     - Funciones Lambda o funciones de Flecha
     - Callbacks
+
+## Section 6: Tipos no tan comundes en Dart
+
+    Temas puntuales de la sección:
+
+    Esta sección contiene un grupo de tipos de datos no tan comunes como los primitivos y los vistos anteriormente, pero son sumamente usados también.
+
+    - Queues o Colas
+    - Enumeraciones
+    - Futures
+    - Async y Await
+    - CatchError
+    - Streams
+    - onError, onDone y cancelOnError
+    - Broadcast
