@@ -2,8 +2,8 @@
 // @/dart=2.9
 void main() {
   // ===== func basic
-  var mensaje = saludar();
-  print(mensaje);
+  var message = greet();
+  print(message);
 
   // example... if returns 0, everything is ok
   // example... if returns 1, something is wrong
@@ -11,20 +11,20 @@ void main() {
 }
 
 // This will return Null, add (void) to return nothing
-String saludar() {
+String greet() {
   return 'hola alberto';
 }
 
 // main() {
 //   // ===== func basic
-//   saludar('yarelis');
-//   saludar('josue');
-//   saludar('alberto');
+//   greet('yarelis');
+//   greet('josue');
+//   greet('alberto');
 
 // }
 
-// saludar(nombre) {
-//    print('Hola $nombre');
+// greet(name) {
+//    print('Hola $name');
 // }
 
 
@@ -32,11 +32,11 @@ String saludar() {
 // main() {
 //   // ===== func basic
 
-//   saludar();
+//   greet();
 
 // }
 
-// saludar() {
+// greet() {
 //   print('Hola alberto');
 //   print('Hola yarelis');
   
