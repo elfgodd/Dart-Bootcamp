@@ -47,3 +47,15 @@ https://dart.dev/get-dart
     - Do While
     - Break y Continue
     - Switch
+
+## Section 5: Funciones en Dart
+
+    Temas puntuales de la sección:
+
+    En esta sección veremos todo lo relacionado a las funciones en Dart y formas de comprender sus argumentos.
+
+    - Funciones básicas
+    - Argumentos
+    - Argumentos por valor y referencia
+    - Funciones Lambda o funciones de Flecha
+    - Callbacks
