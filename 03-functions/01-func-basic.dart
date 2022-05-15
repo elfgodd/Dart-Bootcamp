@@ -1,7 +1,6 @@
 
-// @/dart=2.9
+// ===== func basic
 void main() {
-  // ===== func basic
   var message = greet();
   print(message);
 
