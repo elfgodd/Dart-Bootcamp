@@ -3,7 +3,14 @@ import 'dart:async';
 
 void main() {
   // StreamController<dynamic>
-  final streamController = StreamController();
+  // final streamController = StreamController();
+  // StreamController<String> streamController = StreamController();
+
+  // One 1 listen stream
+  // final streamController = StreamController<String>();
+
+  // Many listeners stream
+  final streamController = StreamController<String>.broadcast();
 
   streamController.stream.listen(
     (data) => print('taking off! $data'),
@@ -15,6 +22,18 @@ void main() {
     cancelOnError: false
   );
 
+  streamController.stream.listen(
+    (data) => print('taking off! Stream 2! $data'),
+    onError: (error) => print('error Stream 2!: $error'),
+    // This will cancel the stream, if an error occurs.
+    onDone: () => print('mission completed Stream 2!'),
+    // onDone will kick in after the stream is closed.
+    // We can add like a success message anythig we want.
+    cancelOnError: false
+  );
+
+
+  // streamController.sink.add(11); type in can't be used in a String stream.
   streamController.sink.add('Apollo 11');
   streamController.sink.add('Apollo 12');
   streamController.sink.add('Apollo 13');
