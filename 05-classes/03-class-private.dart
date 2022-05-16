@@ -1,4 +1,4 @@
-import 'classes/private-person.dart';
+import 'classes/02-private-person.dart';
 main() {
 
   final person = new Person();
