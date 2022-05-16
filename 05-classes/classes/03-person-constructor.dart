@@ -23,6 +23,14 @@ class Person {
   // Person({ this.age, this.name });
   Person({ this.age = 0, this.name = 'No name' });
 
+  // Constructor with name
+  Person.person30(this.name) {
+    this.age = 30;
+  }
+  Person.person40(String name) {
+    this.age = 40;
+    this.name = name;
+  }
 
   // Methods
   @override
