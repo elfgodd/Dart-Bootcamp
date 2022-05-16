@@ -74,3 +74,22 @@ https://dart.dev/get-dart
     - Streams
     - onError, onDone y cancelOnError
     - Broadcast
+
+## Section 7: Introducción a las Classes en Dart
+
+    Temas puntuales de la sección:
+
+    Aquí empezaremos a trabajar con nuestras clases personalizadas en Dart, también quiero recordarles que en los constructores de las clases en Dart, podemos mandar argumentos con nombre, posicionales, opcionales y valores por defecto.
+
+    - Estructura de una clase
+    - Clases en archivos independientes
+    - Propiedades públicas y privadas
+    - Getters
+    - Setters
+    - Constructores básicos
+    - Constructores con nombre
+    - Propiedades finales
+    - Constructores constantes
+    - Constructores factory
+    - Propiedades y métodos estáticos
+    - Singleton
