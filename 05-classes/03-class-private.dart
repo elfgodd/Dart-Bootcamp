@@ -9,6 +9,9 @@ main() {
   // _bio does not exist in this file on private person class
   // print(person._bio);
 
+  // Setter is the mechanism to stablish a value to a property
+  person.bio = 'Changed the value';
+  print(person.bio);
   print(person);
 }
 
