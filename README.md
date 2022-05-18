@@ -93,3 +93,16 @@ https://dart.dev/get-dart
     - Constructores factory
     - Propiedades y métodos estáticos
     - Singleton
+
+## Section 8: Herencia en clases
+
+    Temas puntuales de la sección:
+
+    Esta es una de las secciones mas pequeñas del curso, pero tiene por objetivo complementar la sección anterior con temas muy importantes sobre las clases en Dart.
+
+    - Extends
+    - Clases abstractas
+    - Super Constructor
+    - Override
+    - Mixins
+    Y otros detalles que valen la pena mencionar.
