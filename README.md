@@ -106,3 +106,23 @@ https://dart.dev/get-dart
     - Override
     - Mixins
     Y otros detalles que valen la pena mencionar.
+
+## Section 9: Documentacion y detalles
+
+    Temas puntuales de la sección:
+
+    Esta sección tiene por objetivo principal que ustedes aprendan a usar la documentación Oficial de Dart, que podamos leerla y comprender qué retorna, qué argumentos recibe, cómo funciona.
+
+    - Métodos y propiedades de doubles
+    - Métodos y propiedades de Strings
+    - Métodos y propiedades de Listas
+    - Métodos y propiedades de Mapas
+    - Leer la documentación
+
+### 1. Dart docs:
+
+Effective Dart: Style:  
+https://dart.dev/guides/language/effective-dart/style
+
+Dart API reference documentation, covering the Dart core libraries.:  
+https://api.dartlang.org/stable/
