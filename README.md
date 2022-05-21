@@ -126,3 +126,6 @@ https://dart.dev/guides/language/effective-dart/style
 
 Dart API reference documentation, covering the Dart core libraries.:  
 https://api.dartlang.org/stable/
+
+String class:  
+https://api.dart.dev/stable/2.17.1/dart-core/String-class.html
