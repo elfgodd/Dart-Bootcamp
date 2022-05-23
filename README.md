@@ -129,3 +129,6 @@ https://api.dartlang.org/stable/
 
 String class:  
 https://api.dart.dev/stable/2.17.1/dart-core/String-class.html
+
+List<E> class
+https://api.dart.dev/stable/2.17.1/dart-core/List-class.html
