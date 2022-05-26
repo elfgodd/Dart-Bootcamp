@@ -4,6 +4,8 @@
 
 import 'dart:convert';
 
+import 'package:project/classes/person.dart';
+
 ReqResResponse reqResResponseFromJson(String str) => ReqResResponse.fromJson(json.decode(str));
 
 String reqResResponseToJson(ReqResResponse data) => json.encode(data.toJson());
@@ -35,44 +37,12 @@ class ReqResResponse {
     );
 
     Map<String, dynamic> toJson() => {
-        'page': page,
-        'per_page': perPage,
-        'total': total,
+        'page'       : page,
+        'per_page'   : perPage,
+        'total'      : total,
         'total_pages': totalPages,
-        'data': List<dynamic>.from(data!.map((x) => x.toJson())),
-        'support': support!.toJson(),
-    };
-}
-
-class Person {
-    Person({
-        required this.id,
-        required this.email,
-        required this.firstName,
-        required this.lastName,
-        required this.avatar,
-    });
-
-    int? id;
-    String? email;
-    String? firstName;
-    String? lastName;
-    String? avatar;
-
-    factory Person.fromJson(Map<String, dynamic> json) => Person(
-        id: json['id'],
-        email: json['email'],
-        firstName: json['first_name'],
-        lastName: json['last_name'],
-        avatar: json['avatar'],
-    );
-
-    Map<String, dynamic> toJson() => {
-        'id': id,
-        'email': email,
-        'first_name': firstName,
-        'last_name': lastName,
-        'avatar': avatar,
+        'data'       : List<dynamic>.from(data!.map((x) => x.toJson())),
+        'support'    : support!.toJson(),
     };
 }
 
@@ -86,13 +56,13 @@ class Support {
     String? text;
 
     factory Support.fromJson(Map<String, dynamic> json) => Support(
-        url: json['url'],
-        text: json['text'],
+        url  : json['url'],
+        text : json['text'],
     );
 
     Map<String, dynamic> toJson() => {
-        'url': url,
-        'text': text,
+        'url'  : url,
+        'text' : text,
     };
 }
 
