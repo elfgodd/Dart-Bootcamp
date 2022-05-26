@@ -132,3 +132,30 @@ https://api.dart.dev/stable/2.17.1/dart-core/String-class.html
 
 List<E> class
 https://api.dart.dev/stable/2.17.1/dart-core/List-class.html
+
+## Section 9: Documentacion y detalles
+
+    Temas puntuales de la sección:
+
+    Esta sección tiene por objetivo principal que ustedes aprendan a usar la documentación Oficial de Dart, que podamos leerla y comprender qué retorna, qué argumentos recibe, cómo funciona.
+
+    - Métodos y propiedades de doubles
+    - Métodos y propiedades de Strings
+    - Métodos y propiedades de Listas
+    - Métodos y propiedades de Mapas
+    - Leer la documentación
+
+## Section 10: Paquetes, ejecutar programas, depurar y Http
+
+    Temas puntuales de la sección:
+
+    En esta sección aprenderemos sobre la estructura estándar de un proyecto en Dart, pero sobre todo, poder recibir y poder convertir la información que recibimos de un servicio y mapearlo en objetos de Dart, que nos permitan trabajar la información.
+
+    - Paquetes
+    - Estructura de proyectos
+    - Qué subir a un repositorio
+    - Paquete Http
+    - Mapear datos de respuesta
+    - Optimizaciones
+
+    Al final de esta sección, tenemos una tarea que llevará bastante tiempo resolverla, pero sé que serán capaces de lograrla!
