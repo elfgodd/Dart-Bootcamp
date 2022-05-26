@@ -171,3 +171,7 @@ https://pub.dev/packages/http
 Fake API for testing
 Test your front-end against a real API  
 https://reqres.in/
+
+### 2. Mapear la respuesta a una instancia de clase
+
+https://app.quicktype.io/
