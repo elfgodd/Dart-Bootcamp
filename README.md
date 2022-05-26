@@ -159,3 +159,15 @@ https://api.dart.dev/stable/2.17.1/dart-core/List-class.html
     - Optimizaciones
 
     Al final de esta sección, tenemos una tarea que llevará bastante tiempo resolverla, pero sé que serán capaces de lograrla!
+
+### 1. Peticiones HTTP
+
+`pub get`
+
+http 0.13.4  
+A composable, Future-based library for making HTTP requests.  
+https://pub.dev/packages/http
+
+Fake API for testing
+Test your front-end against a real API  
+https://reqres.in/
