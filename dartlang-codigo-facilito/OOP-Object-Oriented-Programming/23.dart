@@ -1,6 +1,13 @@
 void main() {
 
-  // Constructor
+  // Class Instance
+  
+  Student alberto = Student(name:'Alberto', lastName:'Guzman',
+  	age:35, phoneNum:'123456789', grades: [9,8,7,9]);
+  alberto.getAverage();
+  Student yarelis = Student(name:'Yarelis', lastName:'Diaz',
+  	age: 31, phoneNum:'987654321', grades:[9,10,7,8]);
+  yarelis.getAverage();
   
 }
 
@@ -17,7 +24,7 @@ Student({this.name='', this.lastName='', this.age=0, this.phoneNum='', this.grad
   getAverage() {
     double average = this.grades.reduce((val, ele) => val + ele) / this.grades.length;
     
-    print('Average grades of the student is $average');
+    print('Average grades of student: ${this.name} $average');
   }
   
 }
