@@ -1,12 +1,15 @@
 void main() async {
   
-  // Await
+  // Catch error await
   
   start(); 
   
-  String value = await action();
-  
-  print('This is the value $value');
+  try {
+    String value = await action();
+    print('This is the value $value');
+  } catch(error) {
+    print('This is the error: ${error.toString()}');
+  }
   
   end();
   
