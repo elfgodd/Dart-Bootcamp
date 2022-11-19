@@ -1,10 +1,17 @@
 void main() {
   
-  // Future
+  // Then, whenComplete and catchError
   
-  start();
-  // action();
-  print('This is the message ${action()}');
+  start(); 
+  
+  action().then((value) {
+    print('This is the message $value');
+  }).whenComplete(() {
+    print('This is the message when done or not done anyways');
+  }).catchError((error) {
+    print('This is the message ${error.toString()}');
+  });   
+  
   end();
   
  }
@@ -15,7 +22,7 @@ start() {
   
 Future action() async {
   // return Future.delayed(Duration(seconds:3), () => print('Done'));
-  return Future.delayed(Duration(seconds:3), () => 'Done');
+  return Future.delayed(Duration(seconds:3), () => 'Done...');
 }
   
 end() {
